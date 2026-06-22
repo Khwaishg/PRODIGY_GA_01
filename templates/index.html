@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EduBuddy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>EduBuddy</h1>
+    <form method="POST">
+        <input type="text" name="prompt" placeholder="Enter prompt: " required>
+        <button type="submit"> Generate Text </button>
+    </form>
+    <div class="output">
+        <h2>Generated Text</h2>
+        <p>{{ result }}</p>
+    </div>
+</div>
+</body>
+<footer class="footer">
+    <div class="footer-content">
+        <h3>EduBuddy</h3>
+        <p>Your AI-powered study partner</p>
+        <p class="copyright">
+            2026 EduBuddy. All Rights Reserved.
+        </p>
+    </div>
+</footer>
+</html>

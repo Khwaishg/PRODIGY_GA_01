@@ -1,0 +1,29 @@
+A relational database organizes data into tables made up of rows and columns, where each row represents a single record and each column represents an attribute of that record. Tables can be linked together using keys, allowing data stored in one table to reference data stored in another without duplication. This design, known as normalization, reduces redundancy and keeps the data consistent when updates occur. SQL, or Structured Query Language, is the standard tool used to create, read, update, and delete records within these tables. A well-indexed database can retrieve millions of rows in milliseconds, but poor indexing or unnecessary joins can slow even simple queries to a crawl.
+
+<|endoftext|>
+
+HTTP is the protocol that powers most communication on the web. A client, usually a browser, sends a request to a server specifying a method such as GET, POST, PUT, or DELETE, along with headers that describe the request and sometimes a body containing data. The server processes the request and responds with a status code, such as 200 for success, 404 for not found, or 500 for a server error, along with the requested content. HTTPS adds a layer of encryption on top of this exchange using TLS, ensuring that data passed between client and server cannot be easily intercepted or tampered with by a third party sitting on the network path.
+
+<|endoftext|>
+
+In object-oriented programming, a class acts as a blueprint for creating objects, defining the attributes and behaviors that each object will have. An object is an instance of a class, carrying its own data while sharing the methods defined by the class. Inheritance allows one class to extend another, reusing existing logic while adding or overriding specific behavior. Polymorphism lets different classes respond to the same method call in their own way, which is especially useful when working with collections of related but distinct object types. Encapsulation, the practice of hiding internal implementation details behind a clean interface, helps prevent unintended interference between different parts of a program.
+
+<|endoftext|>
+
+A binary search algorithm finds a target value within a sorted array by repeatedly dividing the search range in half. It compares the target to the middle element of the array; if the target is smaller, the search continues in the left half, and if larger, in the right half. This process repeats until the target is found or the range is empty. Because the search space shrinks by half with each comparison, the algorithm runs in logarithmic time, making it dramatically faster than a linear scan for large datasets. Binary search requires the underlying data to be sorted beforehand, which is a tradeoff worth considering if the data changes frequently.
+
+<|endoftext|>
+
+Version control systems like Git track changes to files over time, allowing multiple people to collaborate on the same codebase without overwriting each other's work. A repository stores the full history of a project, including every committed change, who made it, and why. Branches let developers work on new features or fixes in isolation before merging their changes back into the main line of development. When two branches modify the same lines of code in conflicting ways, Git flags a merge conflict, requiring a human to decide how the final version should look. Commit messages, when written clearly, serve as a running log of a project's evolution and intent.
+
+<|endoftext|>
+
+A neural network consists of layers of interconnected nodes, where each connection carries a weight that is adjusted during training. Data enters through an input layer, passes through one or more hidden layers where computations occur, and produces a result at the output layer. Each node applies an activation function to the weighted sum of its inputs, introducing nonlinearity that allows the network to model complex patterns. Training adjusts the weights using a process called backpropagation, which calculates how much each weight contributed to the error in the output and nudges it in the direction that reduces that error. Over many iterations across a dataset, the network gradually improves its predictions.
+
+<|endoftext|>
+
+Cloud computing allows businesses to rent computing resources such as servers, storage, and databases instead of owning physical hardware. Providers typically offer three main service models: infrastructure as a service, which provides raw virtual machines and storage; platform as a service, which provides a managed environment for deploying applications without managing the underlying servers; and software as a service, which delivers fully built applications over the internet. Scaling in the cloud can happen vertically, by adding more power to an existing machine, or horizontally, by adding more machines to share the load. Pay-as-you-go pricing means costs rise and fall with actual usage rather than being fixed in advance.
+
+<|endoftext|>
+
+An operating system manages the hardware resources of a computer and provides services that applications rely on, such as memory allocation, file management, and process scheduling. The kernel sits at the core of the operating system, mediating every interaction between software and hardware. A process represents a running program with its own allocated memory space, while threads within that process share memory but can execute independently, allowing programs to perform multiple tasks at once. The scheduler decides which process or thread gets access to the CPU at any given moment, balancing fairness with efficiency so that no single task can monopolize the system indefinitely.
